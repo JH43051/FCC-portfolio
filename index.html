@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Personal Portfolio | Responsive Web Design Projects</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <style> /* media queries need fixing are only here for testing */
+    @media only screen and (max-width: 500px) {
+      .project-pic {
+        width: 150px;
+        height: 109px;
+      }
+
+      .projectDiv {
+        width: 150px;
+      }
+    }
+  </style>
+  <!-- <script src="testing.js"></script> -->
+</head>
+
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">Welcome</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="welcome-section" class="section">
+      <h1>Hello and welcome to the:<br>Portfolio of John Holler</h1>
+      <p>n00b coder</p>
+      <h2>Check me out at:</h2>
+      <a id="profile-link" href="https://github.com/JH43051" target="_blank">GitHub</a>
+      <a href="https://www.freecodecamp.org/fccec547c55-e096-4195-aa66-39c14ba4860d" target="blank">FreeCodeCamp</a>
+      <a href="#" target="_blank">LinkedIn</a>
+      <h2>or check out my work below:</h2>
+    </section>
+
+    <section id="projects" class="section">
+      <h1>My Projects</h1>
+
+      <div id="fccGroup" class="groupDiv">
+        <h2>FreeCodeCamp</h2>
+        <div id="fcc-landingPage" class="projectDiv">
+          <a href="https://jh43051.github.io/FCC-landingPage/" target="_blank" class="project-tile">
+            <img class="project-pic" src="https://jh43051.github.io/FCC-landingPage/images/generic_thumb.jpg" alt="Landing page project">
+            <div class="project-title">Landing Page</div>
+          </a>
+        </div>
+
+        <div id="fcc-surveyForm" class="projectDiv">
+          <a href="https://jh43051.github.io/FCC-surveyForm/" target="_blank" class="project-tile">
+            <img class="project-pic" src="https://jh43051.github.io/FCC-surveyForm/images/generic_thumb.jpg" alt="Survey form project">
+            <div class="project-title">Survey Form</div>
+          </a>
+        </div>
+
+        <div id="fcc-technicalDoc" class="projectDiv">
+          <a href="https://jh43051.github.io/FCC-techDoc/" target="_blank" class="project-tile">
+            <img class="project-pic" src="https://jh43051.github.io/FCC-techDoc/images/generic_thumb.jpg" alt="Technical document project">
+            <div class="project-title">Technical Document</div>
+          </a>
+        </div>
+
+        <div id="tibutePage" class="projectDiv">
+          <a href="https://jh43051.github.io/FCC-tributePage/" target="_blank" class="project-tile">
+            <img class="project-pic" src="https://jh43051.github.io/FCC-tributePage/images/generic_thumb.jpg" alt="Tribute page project">
+            <div class="project-title">Tribute Page</div>
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="contact" class="section">
+      <h1>Keep in Touch</h1>
+      <p>jh43051@gmail.com
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>
+      All content created by John Holler unless specifically stated otherwise.
+      <br>2018 - present
+    </p>
+  </footer>
+</body>
+</html>

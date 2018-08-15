@@ -1,0 +1,95 @@
+/* portfolio.css */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+  margin: 0px;
+  font-family: Raleway, Helvetica, sans-serif;
+  text-align: center;
+  color: #272a2f;
+}
+
+.section {
+  padding: 20px 0px 20px 0px;
+}
+
+.groupDiv {
+  margin: 20px auto 20px auto;
+  width: 90%;
+  padding: 50px;
+}
+
+.projectDiv {
+  width: 300px;
+  display: inline-flex;
+  margin: 20px 50px 20px 50px;
+  border: 3px black solid;
+  border-radius: 13px;
+  background-color: #de9256;
+}
+
+.project-tile {
+  color: black;
+  text-decoration: none;
+}
+
+.project-pic {
+  width: 300px;
+  height: 218px;
+  border-radius: 10px;
+}
+
+.project-title {
+  margin: 10px;
+}
+
+#navbar {
+  text-align: right;
+  position:fixed;
+  top: 0;
+  left: 0;
+  background-color: #2d3037;
+  width: 100%
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar ul li {
+  display: inline;
+  text-transform: uppercase;
+  padding: 0px 20px 0px 20px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #de9256;
+}
+
+#welcome-section {
+  height: 60vh;
+  background-color: #9ca3b3;
+  padding-top: 40vh;
+  padding-bottom: 0vh;
+}
+
+#welcome-section a {
+  color: #272a2f
+}
+
+#projects {
+  background-color: #2d3037;
+  color: #9ad691;
+}
+
+#contact {
+  background-color: #f6ca83;
+  color: #272a2f;
+}
+
+#footer {
+  background-color: #272a2f;
+  color: #7eced3;
+  padding: 20px 0px 20px 0px;
+}
